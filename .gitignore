@@ -1,0 +1,28 @@
+# Dependency directories
+node_modules/
+.pnpm-store/
+
+# TypeScript build outputs
+dist/
+*.tsbuildinfo
+
+# Logs
+*.log
+npm-debug.log*
+pnpm-debug.log*
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# macOS
+.DS_Store
+
+# Test coverage
+coverage/
+
+# Local development
+*.local
