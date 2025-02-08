@@ -1,6 +1,6 @@
 {
   "name": "check-duplicate-component-selectors",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "A tool to check for duplicate Angular component selectors across your project",
   "main": "dist/index.cjs",
   "type": "module",
