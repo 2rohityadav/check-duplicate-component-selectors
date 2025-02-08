@@ -3,8 +3,15 @@
 import { blue, yellow, cyan, white, gray, green, red } from "colorette";
 import path from "path";
 import { SelectorChecker } from "./index.js";
+import { fileURLToPath } from "url";
+import { readFileSync } from "fs";
 
-const VERSION = "0.0.10-alpha.12";
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+const packageJson = JSON.parse(
+  readFileSync(path.join(__dirname, "../package.json"), "utf-8")
+);
+const VERSION = packageJson.version;
 
 function printHelp(): void {
   console.log(`
