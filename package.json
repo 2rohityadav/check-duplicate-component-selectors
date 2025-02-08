@@ -20,7 +20,7 @@
   },
   "bin": {
     "check-duplicate-component-selectors": "dist/cli.js",
-    "cdcs": "./bin/index.js"
+    "cdcs": "dist/cli.js"
   },
   "repository": {
     "type": "git",
